@@ -10,7 +10,6 @@ def solve_id_puzzle(filename):
         end = int(end)
         for i in range(start, end):
             if isRepeat(i):
-                print(i)
                 sum += i
 
     return sum
