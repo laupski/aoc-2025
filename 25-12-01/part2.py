@@ -22,7 +22,7 @@ def solve_safe_puzzle(filename):
 
 
 def main():
-    actual_result = solve_safe_puzzle("input.txt")
+    actual_result = solve_safe_puzzle("25-12-01/input.txt")
     print(actual_result)
 
 

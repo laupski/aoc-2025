@@ -33,7 +33,7 @@ def isRepeat(num: int) -> bool:
 
 
 def main():
-    sum = solve_id_puzzle("input.txt")
+    sum = solve_id_puzzle("25-12-02/input.txt")
     print(sum)
 
 
