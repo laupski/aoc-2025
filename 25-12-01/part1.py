@@ -1,3 +1,12 @@
+try:
+    profile
+except NameError:
+
+    def profile(func):
+        return func
+
+
+@profile
 def solve_safe_puzzle(filename):
     with open(filename, "r") as f:
         rotations = [line.strip() for line in f if line.strip()]

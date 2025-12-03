@@ -1,3 +1,12 @@
+try:
+    profile
+except NameError:
+
+    def profile(func):
+        return func
+
+
+@profile
 def solve_id_puzzle(filename):
     with open(filename, "r") as f:
         ids = f.read().strip()
@@ -15,6 +24,7 @@ def solve_id_puzzle(filename):
     return sum
 
 
+@profile
 def isRepeat(num: int) -> bool:
     snum = str(num)
     length = len(snum)

@@ -6,6 +6,7 @@ https://adventofcode.com/2025
 
 - mise
 - `uv` (outside of mise)
+- `ruff` (with `uv tool install ruff`)
 
 ## Benchmarking (hyperfine)
 
