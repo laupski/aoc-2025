@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Profile script for Advent of Code 2025
-# Runs kernprof on all part1.py and part2.py files from 25-12-01 to 25-12-25
-
 set -euo pipefail
 
 # Check if uv is installed
