@@ -13,3 +13,7 @@ https://adventofcode.com/2025
 Mise will install `hyperfine` from `mise.toml`. 
 
 Run `./benchmark.sh`
+
+## Benchmarking (kernprof)
+
+Run `./benchmark_profiling.sh`
