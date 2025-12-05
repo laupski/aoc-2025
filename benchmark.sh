@@ -23,12 +23,12 @@ for day in $(seq -w 1 25); do
     if [[ -d "$dir" ]]; then
         if [[ -f "$dir/part1.py" ]]; then
             SCRIPTS+=(-n "$dir/part1" "uv run $dir/part1.py")
-            echo "Found $dir/part1.py"
+            #echo "Found $dir/part1.py"
         fi
         
         if [[ -f "$dir/part2.py" ]]; then
             SCRIPTS+=(-n "$dir/part2" "uv run $dir/part2.py")
-            echo "Found $dir/part2.py"
+            #echo "Found $dir/part2.py"
         fi
     fi
 done
