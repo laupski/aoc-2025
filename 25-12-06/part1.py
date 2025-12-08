@@ -31,7 +31,7 @@ def solve_cephalopod_puzzle(filename) -> int:
 
 
 def main():
-    sum = solve_cephalopod_puzzle("25-12-06/sample.txt")
+    sum = solve_cephalopod_puzzle("25-12-06/input.txt")
     print(sum)
 
 
